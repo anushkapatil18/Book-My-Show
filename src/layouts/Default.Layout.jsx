@@ -7,7 +7,6 @@ const DefaultLayout = (props) => {
         <div>
             <NavBar />
             {props.children}
-            <div>Footer</div>
         </div>
     )
 }

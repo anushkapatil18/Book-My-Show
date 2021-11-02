@@ -24,7 +24,6 @@ const MovieLayout = (props) => {
         <div>
             <MovieNavbar />
             {props.children}
-            <div>Footer</div>
         </div>
     );
 };
